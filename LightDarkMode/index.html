@@ -1,0 +1,31 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dark/Light Mode</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body cz-shortcut-listen="true">
+    <div class="toggle active"></div>
+    <script>
+      const body = document.querySelector("body"),
+        toggle = document.querySelector(".toggle");
+
+      let getMode = localStorage.getItem("mode");
+      if (getMode && getMode === "dark") {
+        body.classList.add("dark");
+        toggle.classList.add("active");
+      }
+
+      toggle.addEventListener("click", () => {
+        body.classList.toggle("dark");
+        if (!body.classList.contains("dark")) {
+          return localStorage.setItem("mode", "light");
+        }
+        localStorage.setItem("mode", "dark");
+      });
+
+      toggle.addEventListener("click", () => toggle.classList.toggle("active"));
+    </script>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  height: 100vh;
+  background: linear-gradient (to bottom, #91b4ff 50%, #090c31 50%);
+}
+.calculator {
+  width: 400px;
+  background-color: #152f68;
+  padding: 50px 30px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  box-shadow: 0 20px 50px #020011;
+}
+.display {
+  width: 100%;
+}
+.display input {
+  width: 100%;
+  padding: 15px 10px;
+  text-align: right;
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 35px;
+}
+.display input::placeholder {
+  color: #9490ac;
+}
+.button {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  margin-top: 20px;
+}
+.button input[type="button"] {
+  font-size: 20px;
+  padding: 16px;
+  border: none;
+  color: #ffffff;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.button input[type="button"]:hover {
+  box-shadow: 0 8px 25px #0c0c46;
+}
+input[type="button"]#equal {
+  grid-row: span 2;
+  background-color: #91b4ff;
+}
+input[type="button"][value="0"] {
+  grid-column: span 2;
+}
