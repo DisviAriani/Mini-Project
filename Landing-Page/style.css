@@ -136,6 +136,7 @@ header ul li a.active {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 .icon li a img {
+  width: 30px;
   transform: scale(0.7);
   transition: 0.5s;
 }
