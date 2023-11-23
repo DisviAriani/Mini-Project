@@ -81,6 +81,7 @@ header ul li a.active {
   padding-left: 110px;
 }
 .content h2 {
+  padding-bottom: 10px;
   font-size: 3em;
   color: #1f71a1;
 }
