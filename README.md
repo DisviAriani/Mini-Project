@@ -31,19 +31,20 @@ Tampilan Mini Project WebDev FrontEnd. Let's try !!!
 
 ## 8. Mobile Nav
 ### https://github.com/DisviAriani/Mini-Project/tree/master/Mobile%20Nav
-
+![Web capture_29-11-2023_1564_127 0 0 1](https://github.com/DisviAriani/Mini-Project/assets/115921593/aa609db9-54ef-44bf-b02c-857f4ab45fab)
 
 ## 9. Navigation Side Bar
 ### https://github.com/DisviAriani/Mini-Project/tree/master/Nav-side-bar
-
+![Screenshot (564)](https://github.com/DisviAriani/Mini-Project/assets/115921593/d2fb4184-6b98-42e2-a396-357479381027)
 
 ## 10. Notes App
 ### https://github.com/DisviAriani/Mini-Project/tree/master/NotesApp
-
+![Web capture_29-11-2023_15942_127 0 0 1](https://github.com/DisviAriani/Mini-Project/assets/115921593/891ce2ef-bddf-4ec9-862f-9b2e953e13d3)
 
 ## 11. Responsive Navigation
 ### https://github.com/DisviAriani/Mini-Project/tree/master/Responsive-Navigation
-
+![Web capture_29-11-2023_151149_127 0 0 1](https://github.com/DisviAriani/Mini-Project/assets/115921593/556fc4d5-6b00-46ca-b001-6fc3660782bf)
+![Web capture_29-11-2023_15125_127 0 0 1](https://github.com/DisviAriani/Mini-Project/assets/115921593/16808274-8613-4483-a133-293f85b423dc)
 
 ## 12. Sign-In
 ### https://github.com/DisviAriani/Mini-Project/tree/master/Sign-In
