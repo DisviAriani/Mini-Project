@@ -1,0 +1,79 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="slider-container">
+      <div class="slider-image">
+        <div class="slider-img">
+          <img src="img/RM.jpg" alt="1" />
+          <h1>RM</h1>
+          <div class="details">
+            <h2>RM</h2>
+            <p>Leader | Rapper</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="img/JIN.jpg" alt="2" />
+          <h1>JIN</h1>
+          <div class="details">
+            <h2>JIN</h2>
+            <p>Vocalist</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="img/SUGA.jpg" alt="3" />
+          <h1>SUGA</h1>
+          <div class="details">
+            <h2>SUGA</h2>
+            <p>Rapper</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="img/JHOPE.jpg" alt="4" />
+          <h1>JHOPE</h1>
+          <div class="details">
+            <h2>J-HOPE</h2>
+            <p>Dancer | Rapper</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="img/JIMIN.jpg" alt="5" />
+          <h1>JIMIN</h1>
+          <div class="details">
+            <h2>JIMIN</h2>
+            <p>Vocalist | Dancer</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="img/V.jpg" alt="6" />
+          <h1>V</h1>
+          <div class="details">
+            <h2>V</h2>
+            <p>Vocalist</p>
+          </div>
+        </div>
+        <div class="slider-img">
+          <img src="img/JK.jpg" alt="7" />
+          <h1>JUNGKOOK</h1>
+          <div class="details">
+            <h2>JUNGKOOK</h2>
+            <p>Vocalist | Dancer</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".slider-img").on("click", function () {
+          $(".slider-img").not(this).removeClass("active");
+          $(this).toggleClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>
