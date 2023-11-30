@@ -1,0 +1,62 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="hero">
+      <nav>
+        <label for="logo" class="logo">thisvee.</label>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <img src="img/1.jpeg" alt="profil" class="user-pic" onclick="toggleMenu()" />
+        <div class="sub-menu-wrap" id="subMenu">
+          <div class="sub-menu">
+            <div class="user-info">
+              <img src="img/1.jpeg" alt="profil" class="user-pic" />
+              <h3>Disvi Ariani</h3>
+            </div>
+            <hr />
+            <a href="#" class="sub-menu-link">
+              <i data-feather="user" class="icon"></i>
+              <p>Edit Profile</p>
+              <span> > </span>
+            </a>
+            <a href="#" class="sub-menu-link">
+              <i data-feather="settings" class="icon"></i>
+              <p>Settings & Privacy</p>
+              <span> > </span>
+            </a>
+            <a href="#" class="sub-menu-link">
+              <i data-feather="help-circle" class="icon"></i>
+              <p>Help & Support</p>
+              <span> > </span>
+            </a>
+            <a href="#" class="sub-menu-link">
+              <i data-feather="log-out" class="icon"></i>
+              <p>Log Out</p>
+              <span> > </span>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <script>
+      feather.replace();
+    </script>
+
+    <script>
+      let subMenu = document.getElementById("subMenu");
+      function toggleMenu() {
+        subMenu.classList.toggle("open-menu");
+      }
+    </script>
+  </body>
+</html>
