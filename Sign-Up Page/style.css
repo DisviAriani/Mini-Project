@@ -43,7 +43,7 @@ a:hover {
   align-items: center;
 }
 .left {
-  background: linear-gradient(rgba(255, 255, 255, 0.301), rgba(255, 255, 255, 0.884)), url("img/1.jpg");
+  background: linear-gradient(rgba(255, 255, 255, 0.301), rgba(255, 255, 255, 0.884)), url(img/1.jpg);
   background-size: cover;
 }
 .left .copy {
