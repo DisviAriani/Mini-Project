@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Catamaran", sans-serif;
 }
 body {
   height: 160vh;
@@ -37,14 +37,12 @@ body {
 .newsletter-left h2 {
   color: #ffffff;
   text-transform: uppercase;
-  font-family: "Catamaran", sans-serif;
   font-size: 1rem;
   opacity: 0.5;
   letter-spacing: 1px;
 }
 .newsletter-left h1 {
   color: #ffffff;
-  font-family: "Catamaran", sans-serif;
   text-transform: uppercase;
   font-size: 1.5rem;
 }
@@ -57,7 +55,6 @@ body {
   border-radius: 20px;
   display: flex;
   justify-content: space-between;
-  font-family: "Catamaran", sans-serif;
 }
 .newsletter-input input {
   border: none;
@@ -89,12 +86,10 @@ body {
   margin: 10px 20px;
 }
 .footer-main h2 {
-  font-family: "Catamaran", sans-serif;
   color: #ffffff;
   font-size: 1.6rem;
 }
 .footer-main p {
-  font-family: "Catamaran", sans-serif;
   color: #ffffff;
   font-size: 0.8rem;
   line-height: 1.3rem;
@@ -124,7 +119,6 @@ body {
   flex-direction: column;
   width: 200px;
   margin: 40px 20px;
-  font-family: "Catamaran", sans-serif;
 }
 .links p {
   font-size: 1.3rem;
