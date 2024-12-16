@@ -1,3 +1,3 @@
 ## Analog Clock
 ### https://github.com/DisviAriani/Mini-Project/tree/master/Clock
-![Web capture_29-11-2023_144644_127 0 0 1](https://github.com/DisviAriani/Mini-Project/assets/115921593/eeb173a0-5020-467e-adec-c8b412af7671)
+![screencapture-file-D-Documents-VISUAL-STUDIO-Mini-Project-FrontEnd-Analog-Clock-index-html-2024-12-16-13_00_05](https://github.com/user-attachments/assets/080526d9-128f-48cc-90f1-d54036cff8f1)
