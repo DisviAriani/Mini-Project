@@ -1,3 +1,5 @@
 ## Calculator 
 ### The calculator has a complete set of basic calculation features.
-![Web capture_29-11-2023_144612_127 0 0 1](https://github.com/DisviAriani/Mini-Project/assets/115921593/82cea621-b8b2-468e-91b0-b098edb5b574)
+
+![screencapture-file-D-Documents-VISUAL-STUDIO-Mini-Project-FrontEnd-Calculator-index-html-2024-12-16-13_00_52](https://github.com/user-attachments/assets/2d6f34d3-4905-4bbe-97e9-b58908e5546a)
+![screencapture-file-D-Documents-VISUAL-STUDIO-Mini-Project-FrontEnd-Calculator-index-html-2024-12-16-13_01_11](https://github.com/user-attachments/assets/35fb708e-fa04-43ea-bdaa-a8a110d0354d)
