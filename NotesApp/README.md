@@ -1,4 +1,4 @@
-### Notes App
+# Notes App
 
 Default view of note app
 ![screencapture-file-D-Documents-VISUAL-STUDIO-Mini-Project-FrontEnd-NotesApp-index-html-2025-01-08-12_19_22](https://github.com/user-attachments/assets/8aa2f545-a6ad-422b-9a81-5233a36c8229)
