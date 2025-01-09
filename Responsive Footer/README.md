@@ -1,6 +1,6 @@
 ### Responsive Footer
 
-Responsive footer display on desktop
+## Responsive footer display on desktop
 ![screenshot-1736388094366](https://github.com/user-attachments/assets/00d93f52-081a-4570-8644-a5489702d0e4)
 
 Responsive footer view on tablet
