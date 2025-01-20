@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper {
+  position: relative;
+  height: 330px;
+  width: 620px;
+  perspective: 1000px;
+}
+.wrapper .flip-card {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: #d48600;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+}
+.wrapper:hover .flip-card {
+  transform: rotateY(180deg);
+}
+
+.flip-card .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background: #d48600;
+  border-top: 2px solid #cc6600;
+  border-left: 2px solid #cc6600;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  backface-visibility: hidden;
+  position: absolute;
+}
+
+.card span.circle,
+.card span.square {
+  height: 110px;
+  width: 110px;
+  border: 10px solid #4d2600;
+}
+.card span.circle {
+  border-radius: 50%;
+}
+.card span.triangle {
+  position: relative;
+  height: 0;
+  width: 0;
+  border-right: 60px solid transparent;
+  border-left: 60px solid transparent;
+  border-bottom: 110px solid #4d2600;
+  margin-right: 16px;
+}
+.card span.triangle::before {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  left: -40px;
+  top: 20px;
+  border-right: 40px solid transparent;
+  border-left: 40px solid transparent;
+  border-bottom: 80px solid #d48600;
+}
+.back.card {
+  transform: rotateY(180deg);
+}
+.back.card .home-logo {
+  position: relative;
+  height: 65px;
+  width: 65px;
+  border: 5px solid #4d2600;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+.home-logo .icon {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) translateY(6px);
+  display: inline-block;
+  height: 15px;
+  width: 25px;
+  background: #4d2600;
+}
+.home-logo .icon::before {
+  content: "";
+  position: absolute;
+  top: -15px;
+  height: 25px;
+  width: 25px;
+  background: #4d2600;
+  transform: rotate(45deg);
+}
+.back.card .number {
+  font-size: 25px;
+  font-weight: 600;
+  color: #4d2600;
+}
