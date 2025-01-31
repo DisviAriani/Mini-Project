@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Sora", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+.container {
+  max-width: 1060px;
+  margin: auto;
+}
+header {
+  position: fixed;
+  top: 50px;
+  width: 100%;
+  z-index: 100;
+}
+.logo {
+  display: flex;
+  align-items: flex-end;
+  font-weight: 800;
+  font-size: 18px;
+  color: #1b4965;
+}
+.logo img {
+  height: 24px;
+  margin-right: 8px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 12px 24px;
+  border-radius: 10px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.nav-link {
+  font-size: 14px;
+  font-weight: 300;
+  color: #1b4965;
+  transition: transform 0.3s, color 0.3s;
+}
+.nav-link:hover {
+  transform: translateY(-5px);
+  color: #145374;
+}
+.sign-up {
+  display: inline-block;
+  padding: 12px 40px;
+  font-size: 12px;
+  color: #fff;
+  background: #1b4965;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.sign-up:hover {
+  background: #fff;
+  color: #1b4965;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.home {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 650px;
+  padding-left: 150px;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+.home-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+.home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  z-index: -1;
+}
+.home-text {
+  z-index: 1;
+  max-width: 500px;
+  padding-top: 8rem;
+}
+.home-text span {
+  font-size: 12px;
+  font-weight: 300;
+  padding: 8px 32px;
+  margin-bottom: 100px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  color: #fff;
+}
+.home-text h1 {
+  font-size: 42px;
+  font-weight: bold;
+  margin: 16px 0;
+}
+.home-text p {
+  font-size: 12px;
+  font-weight: 200;
+  margin-bottom: 24px;
+}
+.home-text .btn {
+  display: inline-block;
+  padding: 10px 36px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1b4965;
+  background: #fff;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+.home-text .btn:hover {
+  background: #1b4965;
+  color: #fff;
+}
+.location {
+  position: absolute;
+  bottom: 100px;
+  right: 150px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #fff;
+}
+.location i {
+  margin-right: 6px;
+  font-size: 14px;
+}
